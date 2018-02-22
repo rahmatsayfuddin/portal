@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html style="line-height: 1.5;font-family: &quot;Roboto&quot;, sans-serif;font-weight: normal;color: rgba(0, 0, 0, 0.87);">
+<head>  
+  <meta charset="UTF-8">
+  <title>Pointers</title>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width" , initial-scale="1.0" user-scalable="no">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <div class="navbar">
+    <nav class="red" style="height: 64px;line-height: 64px;background-color: #F44336 !important;">
+      <div class="nav-wrapper" style="position: relative;height: 100%;">
+        <a href="#" class="brand-logo center" style="text-decoration: none;position: absolute;color: #fff;display: inline-block;font-size: 2.1rem;padding: 0;left: 50%;-webkit-transform: translateX(-50%);transform: translateX(-50%);">
+          <img src="http://118.97.213.60/webdev/pointerb2c/asset/images/pointerlogoputih.gif" width="100" height="30" class="logo-putih" style="width: 120px;height: 40px;margin-top: 10px;">
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="belakang" style="background-color: #E9E9E9;max-width: 100%;margin: 0 auto;position: relative;">
+    <div class="kepala" style="padding: 15px;color: #314754;text-align: center;">
+      <h5 style="font-size: 1.80vh;margin: 0;">Tidak dapat melihat E-mail ? <a href="#" style="color: #0d7fcc;text-decoration: none;">Klik Disini</a></h5>
+    </div>
+
+    <div class="kotak" style="background-color: #ffffff;margin: 0 20px 0px 20px;color: #314754;">
+      <div class="row" style="margin-left: auto;margin-right: auto;margin-bottom: 20px;">
+
+        <div class="anakkotak2" style="background-color: #ffffff;padding: 10px;">
+          <br>
+          <div class="col s12" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 100%;margin-left: auto;left: auto;right: auto;">
+            <center><h4 style="font-size: 3.40vh;margin: 0;">E-tiket Anda telah terbit!</h4></center>
+          </div>
+          <br>
+          <br>
+          <div class="col s12" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 100%;margin-left: auto;left: auto;right: auto;">
+            <p2><b>Dear User,</b></p2><br>
+          </div>
+          <br>
+          <div class="col s12" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 100%;margin-left: auto;left: auto;right: auto;">
+            <p2><b>Reservasi Anda telah berhasil dikonfirmasi, E-tiket Anda terdapat di attachment atau klik link di bawah ini:</b></p2>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="col s12" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 100%;margin-left: auto;left: auto;right: auto;">
+            <p2><b>Penerbangan Pergi</b></p2><p2><br>
+          </p2></div>
+          <br>
+          <div class="col s12" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 100%;margin-left: auto;left: auto;right: auto;">
+            <p2><b>[area_depart] - [area_arrive]</b></p2><br>
+          </div>
+          <br>
+          <br>
+          <div class="row" style="margin-left: auto;margin-right: auto;margin-bottom: 20px;">
+            <div class="collection table1" style="margin: 0.5rem 0 1rem 0;border: 1px solid #e0e0e0;border-radius: 2px;overflow: hidden;position: relative;padding: 10px;">
+
+              <div class="row" style="margin-left: auto;margin-right: auto;margin-bottom: 20px;">
+                <div class="col s12" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 100%;margin-left: auto;left: auto;right: auto;">
+                  <div class="col s4" id="linebatas" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 33.3333333333%;margin-left: auto;left: auto;right: auto;border-right: solid 1px;">
+                    <p2>Keberangkatan</p2><br>
+                    <p2>[time_depart](Local Time)</p2><br>
+                    <p2>[date_depart]</p2><br>
+                  </div>
+                  <div class="col s4" id="linebatas" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 33.3333333333%;margin-left: auto;left: auto;right: auto;">
+                    <p2>Kedatangan</p2><br>
+                    <p2>[time_arrive]](Local Time)</p2><br>
+                    
+                  </div>
+                  <div class="col s4" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 33.3333333333%;margin-left: auto;left: auto;right: auto;">
+                    
+                  </div>
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="row" style="margin-left: auto;margin-right: auto;margin-bottom: 20px;">
+                <div class="col s12" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 100%;margin-left: auto;left: auto;right: auto;">
+                  <div class="col s1" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 8.3333333333%;margin-left: auto;left: auto;right: auto;">
+                    
+                  </div>
+                  <div class="col s5" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 41.6666666667%;margin-left: auto;left: auto;right: auto;">
+                    <p2>[airline_shortname]</p2><br>
+                    <p2>[flight_id]</p2><br>
+                  </div>
+                  <div class="col s6" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 50%;margin-left: auto;left: auto;right: auto;">
+                    <p2>Booking Code</p2><br>
+                    <p1><a href="#" style="color: red;text-decoration: none;">[booking_code]</a></p1><br>
+                  </div>            
+                </div>
+              </div>
+
+              <div class="row" style="margin-left: auto;margin-right: auto;margin-bottom: 20px;">
+                <div class="col s12" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 100%;margin-left: auto;left: auto;right: auto;">
+                  <div class="col s1" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 8.3333333333%;margin-left: auto;left: auto;right: auto;">
+                    <i class="material-icons" style="text-rendering: optimizeLegibility;-webkit-font-feature-settings: 'liga';-moz-font-feature-settings: 'liga';font-feature-settings: 'liga';font-size: 24px;font-family: 'Material Icons';font-weight: normal;font-style: normal;line-height: 1;letter-spacing: normal;text-transform: none;display: inline-block;white-space: nowrap;word-wrap: normal;direction: ltr;"></i>
+                  </div>
+                  <div class="col s5" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 41.6666666667%;margin-left: auto;left: auto;right: auto;">
+                    <p2>[time_depart](Local Time)</p2><br>
+                    <p2>[date_depart]</p2><br>
+                  </div>
+                  <div class="col s5" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 41.6666666667%;margin-left: auto;left: auto;right: auto;">
+                    <p2>[area_depart]</p2><br>
+                  </div>
+                </div>
+              </div>
+              <div class="col s10 offset s1" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 83.3333333333%;margin-left: auto;left: auto;right: auto;">
+                <div style="border-bottom:2px dotted #000;"></div>
+                <br>
+              </div>
+              <div class="row" style="margin-left: auto;margin-right: auto;margin-bottom: 20px;">
+                <div class="col s12" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 100%;margin-left: auto;left: auto;right: auto;">
+                  <div class="col s1" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 8.3333333333%;margin-left: auto;left: auto;right: auto;">
+                    <i class="material-icons" style="text-rendering: optimizeLegibility;-webkit-font-feature-settings: 'liga';-moz-font-feature-settings: 'liga';font-feature-settings: 'liga';font-size: 24px;font-family: 'Material Icons';font-weight: normal;font-style: normal;line-height: 1;letter-spacing: normal;text-transform: none;display: inline-block;white-space: nowrap;word-wrap: normal;direction: ltr;"></i>
+                  </div>
+                  <div class="col s5" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 41.6666666667%;margin-left: auto;left: auto;right: auto;">
+                    <p2>[time_arrive](Local Time)</p2><br>
+                  </div>
+                  <div class="col s5" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 41.6666666667%;margin-left: auto;left: auto;right: auto;">
+                    <p2>[area_arrive]</p2><br>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col s12" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 100%;margin-left: auto;left: auto;right: auto;">
+            <div style="border-bottom:1px dotted #000;"></div>
+            <br>
+          </div>
+
+          <div class="col s12" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 100%;margin-left: auto;left: auto;right: auto;">
+            <h5 style="font-size: 1.8vh;margin: 0;">Booking ID: [booking_id]</h5>
+          </div>
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <div class="col s12" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 100%;margin-left: auto;left: auto;right: auto;">
+            <div style="border-bottom:1px dotted #000;"></div>
+            <br>
+          </div>
+
+          <br>
+          <br>
+          <br>
+        </div>    
+      </div>
+      
+    </div>
+
+    <div class="belakang" style="background-color: #E9E9E9;max-width: 100%;margin: 0 auto;position: relative; ">
+      <div class="kotak" style="background-color: #ffffff;margin: 0 20px 0px 20px;color: #314754;">
+        <div class="row" style="margin-left: auto;margin-right: auto;margin-bottom: 20px;">
+          <div class="anakkotak2" style="background-color: #ffffff;padding: 10px;">
+
+            <div class="row" style="margin-left: auto;margin-right: auto;margin-bottom: 20px;">
+                <div class="col s12" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 100%;margin-left: auto;left: auto;right: auto;">
+                  <div class="col s1" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 8.3333333333%;margin-left: auto;left: auto;right: auto;">
+                    
+                  </div>
+                  <div class="col s5" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 41.6666666667%;margin-left: auto;left: auto;right: auto;">
+                    <p2>Email : developer@pointer.co.id</p2><br>
+                  </div>
+                  <div class="col s6" style="float: left;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0 0.75rem;min-height: 1px;width: 50%;margin-left: auto;left: auto;right: auto;">
+                    <p2>No Telepon : 02129 373 371</p2><br>
+                  </div>            
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="kaki" style="padding: 15px;text-align: center;">
+      <div class="col s12">
+        <center><p2>E-mail ini ditujukan untuk [user_id] Karena Anda telah melakukan pemesanan Melalui <a href="#" style="text-decoration: none;">Pointer</a></p2></center>
+        <center> 2017, Pointer All Rights Reserved</center>
+      </div>
+    </div>
+
+  </div></body>
+  </html>
