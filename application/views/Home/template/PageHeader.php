@@ -112,7 +112,7 @@
 															Toko
 														</a>
 													</li>
-													<li>
+													<!-- <li>
 														<a href="<?php echo base_url();?>Demo/vMachine">
 															Demo
 														</a>
@@ -121,7 +121,7 @@
 														<a href="<?php echo base_url();?>Harga">
 															Harga
 														</a>
-													</li>
+													</li> -->
 												</li>
 											</ul>
 										</nav>

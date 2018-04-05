@@ -3,8 +3,8 @@
 		<div class="slider-container light rev_slider_wrapper" style="margin-top: -90px">
 			<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 500}">
 				<ul>
-					<li data-transition="fade">
-						<img src="<?php echo base_url();?>assets_1/img/bg_header.png"  
+					<li data-transition="fade" style="color: white;">
+						<img src="<?php echo base_url();?>assets_1/img/bg-coming-soon.png"  
 						alt=""
 						data-bgposition="center center" 
 						data-bgfit="cover" 
@@ -19,7 +19,7 @@
 						data-whitespace="nowrap"						 
 						data-transform_in="y:[100%];s:500;"
 						data-transform_out="opacity:0;s:500;"
-						data-mask_in="x:0px;y:0px;">TELKOM</div>
+						data-mask_in="x:0px;y:0px;" style="color: white;">TELKOM</div>
 						
 						<div class="tp-caption main-label"
 						data-x="330"
@@ -28,64 +28,64 @@
 						data-whitespace="nowrap"						 
 						data-transform_in="y:[100%];s:500;"
 						data-transform_out="opacity:0;s:500;"
-						data-mask_in="x:0px;y:0px;"> CLOUD</div>
+						data-mask_in="x:0px;y:0px;" style="color: white;"> CLOUD</div>
 						
 						<div class="tp-caption bottom-label"
 						data-x="90"
 						data-y="285"
 						data-start="2000"
-						data-transform_in="y:[100%];opacity:0;s:500;">world of cloud</div>
+						data-transform_in="y:[100%];opacity:0;s:500;" style="color: white;">Indonesian Reliable Cloud</div>
 						
 						
 						<div class="tp-caption"
-						data-x="700"
-						data-y="center"
+						data-x="710"
+						data-y="150"
 						data-start="2100"
-						data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power2.easeOut;"><img src="<?php echo base_url();?>assets_1/img/icon_cloud_slider.png" alt=""></div>
+						data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power2.easeOut;"><img src="<?php echo base_url();?>assets_1/img/logo-coming-soon.png" alt="" ></div>
 						
-						<div class="tp-caption"
+						<!-- <div class="tp-caption"
 						data-x="center" data-hoffset="-450"
 						data-y="center" data-voffset="-100"
 						data-start="2100"
-						data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power2.easeOut;"><img src="<?php echo base_url();?>assets_1/img/ic_cloud_1x1.png" alt=""></div>
+						data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power2.easeOut;"><img src="<?php echo base_url();?>assets_1/img/ic_cloud_1x1.png" alt=""></div> -->
 						
-						<div class="tp-caption top-label"
+						<!-- <div class="tp-caption top-label"
 						data-x="92"
 						data-y="320"
 						data-start="2500"
-						data-transform_in="y:[-300%];opacity:0;s:500;">TelkomCloud adalah portal yang membawa informasi dari berbagai sumber,<br>seperti email,forum dan mesin pencari,bersama-sama dengan cara yang<br>seragam</div>
+						data-transform_in="y:[-300%];opacity:0;s:500;"> highly scalable, high-performance container orchestration service <br> that supports Docker containers and allows you to easily run
+						<br> and scale containerized applications</div> -->
 						
-						<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
+						<!-- <a class="tp-caption btn btn-lg btn-primary btn-slider-action"
 						data-hash
 						data-hash-offset="85"
-						href="<?php echo base_url();?>Toko"
-						data-x="center" data-hoffset="-375"
+						href="#"
+						data-x="center" 
 						data-y="center" data-voffset="180"
 						data-start="2200"
 						data-whitespace="nowrap"						 
 						data-transform_in="y:[100%];s:500;"
 						data-transform_out="opacity:0;s:500;"
 						style="z-index: 5"
-						data-mask_in="x:0px;y:0px;">Belanja Sekarang</a>		 
+						data-mask_in="x:0px;y:0px;">Coming Soon</a>	 -->	 
 					</li>
-					
 					<li data-transition="fade">
-						<img src="<?php echo base_url();?>assets_1/img/bg3.png"  
+						<img src="<?php echo base_url();?>assets_1/img/app.png" 						
 						alt=""
-						data-bgposition="center center" 
+						data-bgposition="bottom center" 
 						data-bgfit="cover" 
 						data-bgrepeat="no-repeat" 
 						class="rev-slidebg">
 						
 						
-						<div class="tp-caption main-label-telkom"
+					<!-- 	<div class="tp-caption main-label-telkom"
 						data-x="85"
 						data-y="210"
 						data-start="1500"
 						data-whitespace="nowrap"						 
 						data-transform_in="y:[100%];s:500;"
 						data-transform_out="opacity:0;s:500;"
-						data-mask_in="x:0px;y:0px;">TELKOM</div>
+						data-mask_in="x:0px;y:0px;">Kompetisi </div>
 						
 						<div class="tp-caption main-label"
 						data-x="330"
@@ -94,13 +94,13 @@
 						data-whitespace="nowrap"						 
 						data-transform_in="y:[100%];s:500;"
 						data-transform_out="opacity:0;s:500;"
-						data-mask_in="x:0px;y:0px;">CLOUD</div>
+						data-mask_in="x:0px;y:0px;">Aplikasi</div> -->
 						
-						<div class="tp-caption bottom-label"
+						<!-- <div class="tp-caption bottom-label"
 						data-x="90"
 						data-y="285"
 						data-start="2000"
-						data-transform_in="y:[100%];opacity:0;s:500;">world of cloud</div>
+						data-transform_in="y:[100%];opacity:0;s:500;">Kompetisi Aplikasi</div>
 						
 						
 						<div class="tp-caption"
@@ -119,9 +119,79 @@
 						data-x="92"
 						data-y="320"
 						data-start="2500"
-						data-transform_in="y:[-300%];opacity:0;s:500;">TelkomCloud adalah portal yang membawa informasi dari berbagai sumber,<br>seperti email,forum dan mesin pencari,bersama-sama dengan cara yang<br>seragam</div>
+						data-transform_in="y:[-300%];opacity:0;s:500;">
+						Ikuti kompetisinya dan dapatkan Hadiah menarik !!
+					</div>
+
+					<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
+					data-hash
+					data-hash-offset="85"
+					href="#"
+					data-x="center" 
+					data-y="center" data-voffset="180"
+					data-start="2200"
+					data-whitespace="nowrap"						 
+					data-transform_in="y:[100%];s:500;"
+					data-transform_out="opacity:0;s:500;"
+					style="z-index: 5"
+					data-mask_in="x:0px;y:0px;">Coming Soon</a>		  -->
+				</li>
+				<li data-transition="fade">
+					<img src="<?php echo base_url();?>assets_1/img/bg3.png"  
+					alt=""
+					data-bgposition="center center" 
+					data-bgfit="cover" 
+					data-bgrepeat="no-repeat" 
+					class="rev-slidebg">
+
+
+					<div class="tp-caption main-label-telkom"
+					data-x="85"
+					data-y="210"
+					data-start="1500"
+					data-whitespace="nowrap"						 
+					data-transform_in="y:[100%];s:500;"
+					data-transform_out="opacity:0;s:500;"
+					data-mask_in="x:0px;y:0px;">DevOps</div>
+
+						<!-- <div class="tp-caption main-label"
+						data-x="330"
+						data-y="210"
+						data-start="1500"
+						data-whitespace="nowrap"						 
+						data-transform_in="y:[100%];s:500;"
+						data-transform_out="opacity:0;s:500;"
+						data-mask_in="x:0px;y:0px;">Container</div> -->
 						
-						<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
+						<div class="tp-caption bottom-label"
+						data-x="90"
+						data-y="285"
+						data-start="2000"
+						data-transform_in="y:[100%];opacity:0;s:500;">Run containerized applications</div>
+						
+						
+						<div class="tp-caption"
+						data-x="700"
+						data-y="center"
+						data-start="2100"
+						data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power2.easeOut;"><img src="<?php echo base_url();?>assets_1/img/icon_cloud_slider.png" alt=""></div>
+						
+						<div class="tp-caption"
+						data-x="center" data-hoffset="-450"
+						data-y="center" data-voffset="-100"
+						data-start="2100"
+						data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power2.easeOut;"><img src="<?php echo base_url();?>assets_1/img/ic_cloud_1x1.png" alt=""></div>
+						
+						<div class="tp-caption top-label"
+						data-x="92"
+						data-y="320"
+						data-start="2500"
+						data-transform_in="y:[-300%];opacity:0;s:500;">Bring your technology to seamless Development 
+						and Operational <br> by microservices technology. 
+						<br>Orchestration technology with Docker, Kubernetes, Ansible, etc. 
+						<br> make adoption of virtualization is so easy, simple, and optimize.</div>
+						
+						<!-- <a class="tp-caption btn btn-lg btn-primary btn-slider-action"
 						data-hash
 						data-hash-offset="85"
 						href="<?php echo base_url();?>Toko"
@@ -132,7 +202,7 @@
 						data-transform_in="y:[100%];s:500;"
 						data-transform_out="opacity:0;s:500;"
 						style="z-index: 5"
-						data-mask_in="x:0px;y:0px;">Belanja Sekarang</a>		 
+						data-mask_in="x:0px;y:0px;">Belanja Sekarang</a> -->		 
 					</li>
 				</ul>
 			</div>
