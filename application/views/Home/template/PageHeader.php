@@ -84,6 +84,18 @@
 							<div class="col-md-9">
 								<div class="row">				
 									
+									<div class="header-nav-main push-kanan">
+										<nav>
+											<ul class="nav nav-pills" id="mainNav">
+												<li >
+													<a  href="<?php echo base_url();?>Home/Akun">
+														<i class="fa fa-user"></i> Register
+													</a>
+												</li>
+											</ul>
+										</nav>
+									</div>
+
 									<a href="#" class="mmenu-toggle-btn" title="Toggle menu">
 										<i class="fa fa-bars"></i>
 									</a>

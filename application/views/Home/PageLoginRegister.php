@@ -7,11 +7,11 @@
 							<ul>
 								<li data-transition="fade">
 									<img src="<?php echo base_url();?>assets_1/img/bg_content/bg_login.png"  
-										alt=""
-										data-bgposition="center center" 
-										data-bgfit="cover" 
-										data-bgrepeat="no-repeat" 
-										class="rev-slidebg">
+									alt=""
+									data-bgposition="center center" 
+									data-bgfit="cover" 
+									data-bgrepeat="no-repeat" 
+									class="rev-slidebg">
 								</li>
 							</ul>
 						</div>
@@ -24,7 +24,7 @@
 								<div class="col-md-10 col-md-offset-1">
 
 									<div class="featured-boxes mt-none mb-none">
-										<div class="col-md-6" style="padding: 0px;">
+										<!-- <div class="col-md-6" style="padding: 0px;">
 
 											<div class="featured-box featured-box-primary">
 											
@@ -88,34 +88,44 @@
 												</div>
 											</div>
 
-										</div>
+										</div> -->
 
-										<div class="col-md-6" style="padding: 0px;">
+										<div class="col-md-8 col-md-offset-2" style="padding: 0px;">
 
 											<div class="featured-box featured-box-primary">
-											
+
 												<div class="box-content">
 													<center>
 														<h4 class="mb-none" style="color: #000000;">Akun Baru</h4>
 													</center>
 													<div><?php echo $this->session->flashdata('msgdaftar'); ?></div>
-													<?php echo form_open('Customers/register'); ?>
-														<div class="row">
-															<div class="form-group">
-																<div class="col-md-12">
-																	<label>E-mail*</label>
-																	<input type="email" data-msg-required="Mohon Inputkan E-mail Anda" maxlength="100" class="form-control" name="email" id="email" required>
-																</div>
+													<?php echo form_open('Customers/register_clm'); ?>
+													<div class="row">
+														<div class="form-group">
+															<div class="col-md-12">
+																<label>Nama Depan*</label>
+																<input type="text" data-msg-required="Inputkan Nama" maxlength="100" class="form-control" name="nama_depan" id="nama" required>
 															</div>
 														</div>
-														<div class="row">
-															<div class="form-group">
-																<div class="col-md-12">
-																	<label>Nama*</label>
-																	<input type="text" data-msg-required="Inputkan Nama" maxlength="100" class="form-control" name="nama" id="nama" required>
-																</div>
+													</div>
+													<div class="row">
+														<div class="form-group">
+															<div class="col-md-12">
+																<label>Nama Belakang*</label>
+																<input type="text" data-msg-required="Inputkan Nama" maxlength="100" class="form-control" name="nama_belakang" id="nama" required>
 															</div>
 														</div>
+													</div>
+
+													<div class="row">
+														<div class="form-group">
+															<div class="col-md-12">
+																<label>E-mail*</label>
+																<input type="email" data-msg-required="Mohon Inputkan E-mail Anda" maxlength="100" class="form-control" name="email" id="email" required>
+															</div>
+														</div>
+													</div>
+													
 														<!--
 														<div class="row">
 															<div class="form-group">
@@ -125,61 +135,65 @@
 																</div>
 															</div>
 														</div>
-														-->
-														<div class="row">
-															<div class="form-group">
-																<div class="col-md-6">
-																	<label>Kata Sandi*</label>
-																	<input type="password" data-msg-required="Mohon Inputkan Password Anda" maxlength="100" class="form-control" name="password" id="password" required>
-																</div>
-																<div class="col-md-6">
-																	<label>No Tlpn</label>
-																	<input type="text" data-msg-required="Inputkan No Telpn" maxlength="100" class="form-control" name="no_tlpn" id="no_tlpn" required>
-																</div>
+													-->
+													<div class="row">
+														<div class="form-group">
+															<div class="col-md-6">
+																<label>Username*</label>
+																<input type="text" data-msg-required="Inputkan Username" maxlength="100" class="form-control" name="username" id="username" required>
 															</div>
+															<div class="col-md-6">
+																<label>Kata Sandi*</label>
+																<input type="password" data-msg-required="Mohon Inputkan Password Anda" maxlength="100" class="form-control" name="password" id="password" required>
+															</div>
+															<!-- <div class="col-md-6">
+																<label>No Tlpn</label>
+																<input type="text" data-msg-required="Inputkan No Telpn" maxlength="100" class="form-control" name="no_tlpn" id="no_tlpn" required>
+															</div> -->
 														</div>
-														<div class="row">
-															<div class="form-group">
-																<div class="col-md-6">
-																	<label>Jenis Kelamin</label><br>
-																	<div class="col-md-5">
-																		<div class="radio-custom">
-																			<input type="radio" id="gender" name="gender" value="1">
-																			<label for="radioExample1">Pria</label>
-																		</div>
-																	</div>
-																	<div class="col-md-7">
-																		<div class="radio-custom">
-																			<input type="radio" id="gender" name="gender" value="0">
-																			<label for="radioExample2">Wanita</label>
-																		</div>
+													</div>
+													<div class="row">
+														<div class="form-group">
+															<div class="col-md-6">
+															<!-- 	<label>Jenis Kelamin</label><br>
+																<div class="col-md-5">
+																	<div class="radio-custom">
+																		<input type="radio" id="gender" name="gender" value="1">
+																		<label for="radioExample1">Pria</label>
 																	</div>
 																</div>
-																<div class="col-md-6">
+																<div class="col-md-7">
+																	<div class="radio-custom">
+																		<input type="radio" id="gender" name="gender" value="0">
+																		<label for="radioExample2">Wanita</label>
+																	</div>
+																</div> -->
+															</div>
+															<div class="col-md-6">
 																	<!--
 																	<label>Tanggal Lahir</label>
 																	<div class="col-md-12">	
 																	</div>
-																	-->
-																</div>
+																-->
 															</div>
 														</div>
-														<div class="row">
-															<div class="col-md-12">
-																<button type="submit" value="Register" class="btn btn-danger btn-icon btn-block mb-xl" data-loading-text="Loading...">Daftar</button>
-															</div>
+													</div>
+													<div class="row">
+														<div class="col-md-12">
+															<button type="submit" value="Register" class="btn btn-danger btn-icon btn-block mb-xl" data-loading-text="Loading...">Daftar</button>
 														</div>
-														<div class="row">
-															<div class="col-md-12">
-																<div class="alert alert-success hidden" id="contactSuccess">
-																	Message has been sent to us.
-																</div>
+													</div>
+													<div class="row">
+														<div class="col-md-12">
+															<div class="alert alert-success hidden" id="contactSuccess">
+																Message has been sent to us.
+															</div>
 
-																<div class="alert alert-danger hidden" id="contactError">
-																	Error sending your message.
-																</div>
+															<div class="alert alert-danger hidden" id="contactError">
+																Error sending your message.
 															</div>
 														</div>
+													</div>
 														<!--
 														<div class="row">
 															<div class="col-md-12">
@@ -194,7 +208,7 @@
 																</div>
 															</div>
 														</div>
-														-->
+													-->
 													<?php echo form_close(); ?>
 												</div>
 											</div>
